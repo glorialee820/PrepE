@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Checklist">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Please let this work!"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Check all"
+            android:visibility="visible"
+            android:layout_marginLeft="10dp"
+            android:onClick="clearAll"
+            />
+        <Button
+            android:id="@+id/unselectAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Uncheck all"
+            android:visibility="visible"
+            android:layout_marginLeft="180dp"
+            android:onClick="unselectAll"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/unchecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <!--<CheckBox
+               android:id="@+id/chkIos"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:checked="false"
+               android:text="@string/chk_ios"
+               android:layout_marginBottom="5dp"
+               android:onClick="checkOff"
+               />
+
+           <CheckBox
+               android:id="@+id/chkAndroid"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:checked="false"
+               android:text="@string/chk_android"
+               android:layout_marginBottom="5dp"
+               />
+
+           <CheckBox
+               android:id="@+id/chkWindows"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:checked="false"
+               android:text="@string/chk_windows"
+               android:layout_marginBottom="5dp"
+               android:onClick="checkOff"
+               />
+        -->
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+
+    <LinearLayout
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<CheckBox
+            android:id="@+id/chkAndroidDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/chk_android"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorPrimary"
+            android:onClick="checkOff"
+            />
+
+        <CheckBox
+            android:id="@+id/chkWindowsDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/chk_windows"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorAccent"
+            android:onClick="checkOff"
+            />
+        -->
+    </LinearLayout><!--end checked boxes-->
+</LinearLayout>

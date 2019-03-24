@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorUnchecked">#000000</color>
+    <color name="colorChecked">#888888</color>
+
+    <!--<string name="app_name">TechTogether</string>-->
+    <!--<string name="hello">Hello World, MyAndroidAppActivity!</string>-->
+    <!--<string name="chk_ios">IPhone</string>-->
+    <!--<string name="chk_android">Android</string>-->
+    <!--<string name="chk_windows">Windows Mobile</string>-->
+    <!--<string name="btn_display">Select All</string>-->
+
+</resources>

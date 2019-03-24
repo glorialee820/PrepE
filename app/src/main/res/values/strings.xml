@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Emergency Preparedness</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello World, MyAndroidAppActivity!</string>
+    <string name="chk_ios">IPhone</string>
+    <string name="chk_android">Android</string>
+    <string name="chk_windows">Windows Mobile</string>-->
+    <string name="btn_display">Clear All</string>
+
+
+    <!--<resources>-->
+        <!--<string name="app_name">Emergency Preparedness</string>-->
+        <!--<string name="hello">Hello World, MyAndroidAppActivity!</string>-->
+        <!--<string name="chk_ios">IPhone</string>-->
+        <!--<string name="chk_android">Android</string>-->
+        <!--<string name="chk_windows">Windows Mobile</string>-->
+        <!--<string name="btn_display">Select All</string>-->
+        <!--<string name="android">android</string>-->
+        <!--<string name="windows">windows</string>-->
+        <!--<string name="iphone">Iphone</string>-->
+    <!--<string name="check_all">Check All</string>-->
+    <!--<string name="hello_blank_fragment">Hello</string>-->
+    <!--<string name="action_settings">menu</string>-->
+<!--</resources>-->
+
+</resources>
