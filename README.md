@@ -2,7 +2,7 @@
 TechTogether 2019 Project
 
 ## Inspiration
-** Audra: ** "In my 20s I would have out with friends and create a plan to "Survive the Zombie Apocalypse". It's not a realistic situation, but an effective exercise in preparing for emergency events that really do happen. Over the years I've supported friends and family create a #BugOutBag, or 72 hour bag, before hurricanes and wildfires. Modifying the resources available lead to me curating my own disaster prep list, which lead me to see the gaps in the resources most readily available. I'm new to coding and this project has been someone I've wanted to grow into. I'm so happy that #TechTogether has provided the opportunity for me to share my idea with a team of folx who worked with me to get this started."
+**Audra: ** "In my 20s I would have out with friends and create a plan to "Survive the Zombie Apocalypse". It's not a realistic situation, but an effective exercise in preparing for emergency events that really do happen. Over the years I've supported friends and family create a #BugOutBag, or 72 hour bag, before hurricanes and wildfires. Modifying the resources available lead to me curating my own disaster prep list, which lead me to see the gaps in the resources most readily available. I'm new to coding and this project has been someone I've wanted to grow into. I'm so happy that #TechTogether has provided the opportunity for me to share my idea with a team of folx who worked with me to get this started."
 
 FEMA, the CDC, Ready.Gov, State, and local municipalities all have Emergency and Disaster preparedness programs and initiatives. Every level of government has varying levels of success and effectiveness. 
 Governmental Disaster and Emergency Preparedness programs provide a lot of information (digital and paper) for individuals and families to prepare for Emergency Events and Natural disaster but little support in executing the tasks needed to prepare for and emergency. 
@@ -19,11 +19,11 @@ PrepE is creating a tools that makes it easier to care for each family member's 
 PrepE is designed for one family member to take the lead in Preparing Everyone (both humans and pets) to evacuate their home in an emergency event.
 The user is asked six questions about their family's location, size, and needs. #TeamPrepE enriches checklists created government organizations and more traditions disaster prep enthusiasts by having the user identify when their loved one is part of a socially vulnerable population (https://tinyurl.com/as-defined-by-the-CDC) so the 72 Hour Bag Packing List is adjusted to meet their family member's specific needs. 
 
-** Preparedness_72 Hour Bag Packing List_**
+**Preparedness_72 Hour Bag Packing List_**
 After the user completes the quiz a packing list is generated to reflect family member needs. Supplies to meet basic needs are automatic. Every adult person needs 2 gallons of water per day. If you have three adults in your family PrepE will do the math and tell you need at least 18 gallons of drinking water to prepare everyone for the first 72 hours of an Emergency. 
 PrepE has a collection of specialized packing lists that are activated when a family member is socially vulnerable is identified in the quiz. The majority of packing lists created by government organizations and disaster prep enthusiast are static - pieces of paper with items to acquire and check off once packed or ignore. Other resources may include a note to pack enough diapers for the baby, have a month's supply of medicine, or include vaccination paperwork for pets. We are developing a solution to support the user in managing the variable of who needs what to survive an emergency and thrive during the recovery. 
 
-** Response_EMS Map_**
+**Response_EMS Map_**
 Initially we planned to have an evacuation route provided to the user via Google Maps. In the Family Background Quiz, users were asked for their zip code and using that information, we found the closest hospital to them. From there, the user could allow access to location and would be provided a route to a hospital. 
 
 ## How we built it
